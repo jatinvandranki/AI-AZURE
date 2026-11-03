@@ -1,0 +1,1 @@
+Run label: PUBLICATION CANDIDATE. The proposed multi-agent AI was evaluated on held-out chronological Azure CPU trace intervals. Against Greedy, the estimated-energy difference was 27.87% with AI SLA violation rate 0.9303. Energy is model-based, not measured facility power.

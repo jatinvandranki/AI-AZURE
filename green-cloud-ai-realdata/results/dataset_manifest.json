@@ -1,0 +1,235 @@
+{
+  "interval_seconds": 300,
+  "files": [
+    {
+      "name": "trace_data_vmtable_vmtable.csv.gz",
+      "size": 437594496,
+      "mtime": 1788113757.7918854
+    },
+    {
+      "name": "trace_data_vm_cpu_readings_vm_cpu_readings-file-1-of-195.csv.gz",
+      "size": 856259637,
+      "mtime": 1788113922.4216185
+    },
+    {
+      "name": "trace_data_vm_cpu_readings_vm_cpu_readings-file-2-of-195.csv.gz",
+      "size": 856805928,
+      "mtime": 1788196305.383072
+    },
+    {
+      "name": "trace_data_vm_cpu_readings_vm_cpu_readings-file-3-of-195.csv.gz",
+      "size": 856709133,
+      "mtime": 1788196525.428597
+    },
+    {
+      "name": "trace_data_vm_cpu_readings_vm_cpu_readings-file-4-of-195.csv.gz",
+      "size": 856861294,
+      "mtime": 1788196680.7952015
+    },
+    {
+      "name": "trace_data_vm_cpu_readings_vm_cpu_readings-file-5-of-195.csv.gz",
+      "size": 856884103,
+      "mtime": 1788196820.4558482
+    },
+    {
+      "name": "trace_data_vm_cpu_readings_vm_cpu_readings-file-6-of-195.csv.gz",
+      "size": 856841550,
+      "mtime": 1789022498.3330107
+    },
+    {
+      "name": "trace_data_vm_cpu_readings_vm_cpu_readings-file-7-of-195.csv.gz",
+      "size": 856817527,
+      "mtime": 1789024127.4891632
+    },
+    {
+      "name": "trace_data_vm_cpu_readings_vm_cpu_readings-file-8-of-195.csv.gz",
+      "size": 857034077,
+      "mtime": 1789683052.180001
+    },
+    {
+      "name": "trace_data_vm_cpu_readings_vm_cpu_readings-file-9-of-195.csv.gz",
+      "size": 857125232,
+      "mtime": 1789683188.307077
+    },
+    {
+      "name": "trace_data_vm_cpu_readings_vm_cpu_readings-file-10-of-195.csv.gz",
+      "size": 857098289,
+      "mtime": 1789683339.6413467
+    },
+    {
+      "name": "trace_data_vm_cpu_readings_vm_cpu_readings-file-11-of-195.csv.gz",
+      "size": 857124866,
+      "mtime": 1789683476.5732799
+    },
+    {
+      "name": "trace_data_vm_cpu_readings_vm_cpu_readings-file-12-of-195.csv.gz",
+      "size": 857122726,
+      "mtime": 1789683629.055659
+    },
+    {
+      "name": "trace_data_vm_cpu_readings_vm_cpu_readings-file-13-of-195.csv.gz",
+      "size": 857123176,
+      "mtime": 1789683758.299032
+    },
+    {
+      "name": "trace_data_vm_cpu_readings_vm_cpu_readings-file-14-of-195.csv.gz",
+      "size": 857170669,
+      "mtime": 1789683902.9233086
+    },
+    {
+      "name": "trace_data_vm_cpu_readings_vm_cpu_readings-file-15-of-195.csv.gz",
+      "size": 857209943,
+      "mtime": 1789684044.457537
+    },
+    {
+      "name": "trace_data_vm_cpu_readings_vm_cpu_readings-file-16-of-195.csv.gz",
+      "size": 857042302,
+      "mtime": 1789684193.5829089
+    },
+    {
+      "name": "trace_data_vm_cpu_readings_vm_cpu_readings-file-17-of-195.csv.gz",
+      "size": 857064261,
+      "mtime": 1789684339.5503283
+    },
+    {
+      "name": "trace_data_vm_cpu_readings_vm_cpu_readings-file-18-of-195.csv.gz",
+      "size": 857096127,
+      "mtime": 1789684482.3940637
+    },
+    {
+      "name": "trace_data_vm_cpu_readings_vm_cpu_readings-file-19-of-195.csv.gz",
+      "size": 857110170,
+      "mtime": 1789684625.538933
+    },
+    {
+      "name": "trace_data_vm_cpu_readings_vm_cpu_readings-file-20-of-195.csv.gz",
+      "size": 857198215,
+      "mtime": 1789684759.7048519
+    },
+    {
+      "name": "trace_data_vm_cpu_readings_vm_cpu_readings-file-21-of-195.csv.gz",
+      "size": 857207924,
+      "mtime": 1789684918.5663354
+    },
+    {
+      "name": "trace_data_vm_cpu_readings_vm_cpu_readings-file-22-of-195.csv.gz",
+      "size": 857154049,
+      "mtime": 1789685059.4606552
+    },
+    {
+      "name": "trace_data_vm_cpu_readings_vm_cpu_readings-file-23-of-195.csv.gz",
+      "size": 857258083,
+      "mtime": 1789685192.397552
+    },
+    {
+      "name": "trace_data_vm_cpu_readings_vm_cpu_readings-file-24-of-195.csv.gz",
+      "size": 857359840,
+      "mtime": 1789685379.7309728
+    },
+    {
+      "name": "trace_data_vm_cpu_readings_vm_cpu_readings-file-25-of-195.csv.gz",
+      "size": 857332690,
+      "mtime": 1789685530.6087918
+    },
+    {
+      "name": "trace_data_vm_cpu_readings_vm_cpu_readings-file-26-of-195.csv.gz",
+      "size": 857273580,
+      "mtime": 1789685708.0176234
+    },
+    {
+      "name": "trace_data_vm_cpu_readings_vm_cpu_readings-file-27-of-195.csv.gz",
+      "size": 857229626,
+      "mtime": 1789685866.4793816
+    },
+    {
+      "name": "trace_data_vm_cpu_readings_vm_cpu_readings-file-28-of-195.csv.gz",
+      "size": 857255320,
+      "mtime": 1789686028.952602
+    },
+    {
+      "name": "trace_data_vm_cpu_readings_vm_cpu_readings-file-29-of-195.csv.gz",
+      "size": 857166142,
+      "mtime": 1789686167.420449
+    },
+    {
+      "name": "trace_data_vm_cpu_readings_vm_cpu_readings-file-30-of-195.csv.gz",
+      "size": 857322687,
+      "mtime": 1789686306.077054
+    },
+    {
+      "name": "trace_data_vm_cpu_readings_vm_cpu_readings-file-31-of-195.csv.gz",
+      "size": 857364735,
+      "mtime": 1789686464.8976922
+    },
+    {
+      "name": "trace_data_vm_cpu_readings_vm_cpu_readings-file-32-of-195.csv.gz",
+      "size": 857310082,
+      "mtime": 1789686611.946129
+    },
+    {
+      "name": "trace_data_vm_cpu_readings_vm_cpu_readings-file-33-of-195.csv.gz",
+      "size": 857259200,
+      "mtime": 1789686772.6132922
+    },
+    {
+      "name": "trace_data_vm_cpu_readings_vm_cpu_readings-file-34-of-195.csv.gz",
+      "size": 857240774,
+      "mtime": 1789686918.199951
+    },
+    {
+      "name": "trace_data_vm_cpu_readings_vm_cpu_readings-file-35-of-195.csv.gz",
+      "size": 857123443,
+      "mtime": 1789687093.8568568
+    },
+    {
+      "name": "trace_data_vm_cpu_readings_vm_cpu_readings-file-36-of-195.csv.gz",
+      "size": 857225955,
+      "mtime": 1789687256.4154956
+    },
+    {
+      "name": "trace_data_vm_cpu_readings_vm_cpu_readings-file-37-of-195.csv.gz",
+      "size": 857321375,
+      "mtime": 1789687419.1589103
+    },
+    {
+      "name": "trace_data_vm_cpu_readings_vm_cpu_readings-file-38-of-195.csv.gz",
+      "size": 857337339,
+      "mtime": 1789687607.8361535
+    },
+    {
+      "name": "trace_data_vm_cpu_readings_vm_cpu_readings-file-39-of-195.csv.gz",
+      "size": 857289947,
+      "mtime": 1789687759.2486575
+    },
+    {
+      "name": "trace_data_vm_cpu_readings_vm_cpu_readings-file-40-of-195.csv.gz",
+      "size": 857230499,
+      "mtime": 1789687919.8508203
+    },
+    {
+      "name": "trace_data_vm_cpu_readings_vm_cpu_readings-file-41-of-195.csv.gz",
+      "size": 857260681,
+      "mtime": 1789688065.8343203
+    },
+    {
+      "name": "trace_data_vm_cpu_readings_vm_cpu_readings-file-42-of-195.csv.gz",
+      "size": 857202517,
+      "mtime": 1789688244.1332872
+    },
+    {
+      "name": "trace_data_vm_cpu_readings_vm_cpu_readings-file-43-of-195.csv.gz",
+      "size": 857348716,
+      "mtime": 1789688395.911254
+    },
+    {
+      "name": "trace_data_vm_cpu_readings_vm_cpu_readings-file-44-of-195.csv.gz",
+      "size": 857330521,
+      "mtime": 1789688538.8151164
+    },
+    {
+      "name": "trace_data_vm_cpu_readings_vm_cpu_readings-file-45-of-195.csv.gz",
+      "size": 857342291,
+      "mtime": 1789688734.030851
+    }
+  ]
+}

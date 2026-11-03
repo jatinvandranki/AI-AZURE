@@ -1,0 +1,25 @@
+# Local virtual environments
+venv/
+.venv/
+
+# Python caches
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Local datasets and downloaded archives (keep data scripts and documentation)
+data/
+*.csv
+*.csv.gz
+*.json.gz
+*.zip
+*.parquet
+*.pkl
+*.pickle
+*.h5
+*.hdf5
+
+# Generated/local files
+*.tmp
+*.log
+experiment_output.txt

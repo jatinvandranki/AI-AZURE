@@ -1,0 +1,62 @@
+data_dir: data/azure_v2
+modes:
+  quick:
+    max_files: 1
+    max_rows: 2000000
+    num_episodes: 8
+    min_intervals: 8
+    strict_publication: false
+  standard:
+    max_files: 3
+    max_rows: 3000000
+    num_episodes: 40
+    min_intervals: 60
+    strict_publication: false
+  full:
+    max_files: 0
+    max_rows: 0
+    num_episodes: 120
+    min_intervals: 2000
+    strict_publication: true
+dataset:
+  release_base_url: https://github.com/Azure/AzurePublicDataset/releases/download/dataset-v2/
+  vm_table: trace_data_vmtable_vmtable.csv.gz
+  cpu_file_pattern: trace_data_vm_cpu_readings_vm_cpu_readings-file-{index}-of-195.csv.gz
+  total_cpu_files: 195
+  publication_target_intervals: 2000
+interval_seconds: 300
+train_ratio: 0.60
+validation_ratio: 0.20
+test_ratio: 0.20
+server_capacity: 100.0
+max_servers: 100
+initial_active_servers: 55
+power_models:
+  conservative: {p_idle: 80.0, p_max: 180.0}
+  nominal: {p_idle: 120.0, p_max: 250.0}
+  high_power: {p_idle: 180.0, p_max: 400.0}
+power_model: nominal
+base_latency_ms: 80.0
+sla_threshold_ms: 200.0
+queue_delay_weight: 180.0
+overload_latency_weight: 900.0
+utilization_regions:
+  efficient_max: 0.70
+  normal_max: 0.85
+  warning_max: 0.95
+  high_risk_max: 1.00
+learning_rate: 0.12
+discount_factor: 0.94
+epsilon_start: 1.0
+epsilon_min: 0.05
+epsilon_decay: 0.985
+reward:
+  energy: 1.0
+  sla: 8.0
+  latency: 1.5
+  overload: 12.0
+  churn: 0.15
+  utilization: 0.8
+seeds: [101, 202, 303, 404, 505]
+chunk_size: 1000000
+bootstrap_samples: 1000

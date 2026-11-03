@@ -1,0 +1,45 @@
+RESEARCH SUMMARY
+================
+
+DATA
+Source: Microsoft Azure Public Dataset V2 (2019)
+CPU shards used: 1
+Raw records: 10000000
+Unique VMs: 241490
+Intervals: 45; training: 31; testing: 14
+
+METHOD
+Two cooperating Q-learning agents control bounded server capacity and consolidation. The 70/30 split is chronological. Energy is estimated with P(u)=P_idle+(P_max-P_idle)u and integrated over 5-minute intervals. SLA violation means response_ms > 200; compliance is 1 - violation.
+
+RESULTS
+AI estimated energy: 13347.655 Wh
+Mean baseline energy: 23878.785 Wh
+Relative energy difference (AI vs baseline mean): 44.10%
+AI SLA violation rate: 0.9286; compliance: 0.0714
+AI mean/P95 latency: 724.506/1031.321 ms
+AI mean/max overload: 0.93036/1.26401
+
+STATISTICS
+Interval-level paired tests were used; seed-level aggregate t-tests were not used. Holm-adjusted p-values: [1.3785266451162783e-12, 1.0338949838372087e-12, 1.316260732484134e-12, 6.58130366242067e-13]
+
+LIMITATIONS
+Energy is modeled, not measured Azure data-center power. The local workspace currently contains only the shards reported above; a short trace and few held-out intervals limit statistical power. Results should be interpreted as a trace-driven simulation study, not a production deployment claim.
+
+METHOD COMPARISON
+AI: 13347.655 Wh; violation rate 0.9286; latency 724.506 ms
+Greedy: 26487.532 Wh; violation rate 0.9286; latency 227.149 ms
+Packing: 26317.532 Wh; violation rate 1.0000; latency 237.758 ms
+StaticOver: 21145.988 Wh; violation rate 0.9286; latency 276.156 ms
+Threshold: 21564.085 Wh; violation rate 0.9286; latency 297.452 ms
+
+ABLATION RESULTS
+Energy only: 15258.488 Wh
+Full AI: 13347.655 Wh
+No energy reward: 17545.155 Wh
+No trend: 13347.655 Wh
+Resource only: 17255.155 Wh
+
+SENSITIVITY RESULTS
+Balanced: 13347.655 Wh; violation rate 0.9286
+Energy-focused: 17430.988 Wh; violation rate 0.9286
+SLA-focused: 17524.322 Wh; violation rate 0.9286
